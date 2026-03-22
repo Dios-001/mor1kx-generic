@@ -250,7 +250,7 @@ fusesoc run --target mor1kx_tb --tool icarus mor1kx-generic \
 **Running the Mork1x Core with verilator backend**
 
 ```
-fusesoc run --target mor1kx_tb --tool varilator mor1kx-generic \
+fusesoc run --target mor1kx_tb --tool verilator mor1kx-generic \
   --elf_load ./openrisc-asm --trace_enable --trace_to_screen --vcd testbench.vcd
 ```
 
